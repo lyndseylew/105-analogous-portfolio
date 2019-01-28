@@ -1,0 +1,135 @@
+/** Page Structure **/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+#portfolio {
+  padding: 50px 100px 100px 100px;
+}
+
+#about {
+  background: #087e8b;
+  padding: 50px 100px 100px 100px;
+}
+
+#contact {
+  background: #095156;
+  padding: 50px 100px 10px 100px;
+}
+.subtitle {
+  padding-bottom: 50px;
+}
+
+/** Page Fonts **/
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+h1, h2, h3  {
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+
+h4, h5, h6 {
+  font-family: 'Varela Round', serif;
+  margin: 0;
+}
+
+h2 {
+  font-size: 36px;
+  text-align: center;
+}
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #6ba598;
+}
+
+/***** Header Section **/
+header {
+  height: 800px;
+  background: url("../img/hero-image.png") #ebebeb no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #bdbf09;
+  padding: 350px 50px 25px 50px;
+}
+
+header h2 {
+  font-family: 'Roboto', serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #095156;
+  padding: 0 200px;
+  width: 800px;
+}
+
+/***** About SECTION **/
+#about img {
+  height: 350px;
+}
+
+/** Portfolio Section **/
+#portfolio h2, #portfolio p {
+  color: #095156;
+}
+#portfolio h3 {
+  color: #095156;
+  margin-bottom: 0;
+}
+#portfolio img {
+  height: 350px;
+}
+.tools {
+  margin-top: 0;
+}
+.project_item {
+  padding-top: 50px;
+}
+
+/** Contact Section **/
+#contact h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#contact p {
+  text-align: center;
+  margin: 0 auto;
+}
+#contact a {
+  color: #fff;
+  text-decoration: none;
+}
+#contact img {
+  height: 40px;
+  margin: 0 25px;
+}
+.copyright {
+  font-size: 18px;
+  padding-top: 115px;
+}
