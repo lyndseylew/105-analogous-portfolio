@@ -25,7 +25,10 @@ h3 {
 
 a {
   text-decoration: none;
-  color: #6ba598;
+  color: #095156;
+}
+.fas {
+  color: #bdbf09;
 }
 
 /** Page Structure **/
@@ -47,7 +50,7 @@ a {
   float: left;
 }
 
-#portfolio {
+#portfolio, #portfolio-page {
   padding: 50px 100px 100px 100px;
 }
 
@@ -62,6 +65,12 @@ a {
 }
 .subtitle {
   padding-bottom: 50px;
+}
+
+nav {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 20px 0 0 100px;
 }
 
 /***** Header Section **/
@@ -86,6 +95,18 @@ header h2 {
   color: #095156;
   padding: 0 200px;
   width: 800px;
+}
+.portfolio-page {
+  height: 400px;
+}
+.portfolio-page h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #bdbf09;
+  padding: 250px 50px 25px 50px;
+}
+.portfolio-page p {
+  margin: 0;
 }
 
 /***** About SECTION **/
@@ -131,4 +152,20 @@ header h2 {
 .copyright {
   font-size: 18px;
   padding-top: 115px;
+}
+
+/** Portfolio Pages **/
+#portfolio-page h2, #portfolio-page p {
+  color: #095156;
+}
+#portfolio-page h3 {
+  color: #095156;
+  margin-bottom: 0;
+}
+.full_height {
+  width: 550px;
+}
+.github img {
+  height: 25px;
+  margin: 0 10px;
 }
